@@ -1,0 +1,521 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pmpr Ticket\n"
+"POT-Creation-Date: 2023-07-26 17:49+0330\n"
+"PO-Revision-Date: 2023-07-26 17:49+0330\n"
+"Last-Translator: pmpr.dev <pmpr.dev@gmail.com>\n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: index.php\n"
+"X-Source-Language: en\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: lib\n"
+"X-Poedit-SearchPathExcluded-1: *.js\n"
+
+#: src/Pmpr/Module/Ticket/Backend/Common.php:45
+#, php-format
+msgid "%s at %s"
+msgstr "%s ساعت %s"
+
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:51
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:92
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:174
+msgid "your request is not valid, please refresh page and try again."
+msgstr "درخواست شما معتبر نیست، لطفا صفحه را رفرش کرده و مجدد امتحان کنید."
+
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:56
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:97
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:179
+msgid ""
+"can not recognize submitted form, please refresh the page and try again."
+msgstr ""
+"قادر به شناسایی درخواست ارسالی نیستیم، لطفا صفحه را رفرش کرده و دوباره "
+"امتحان کنید."
+
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:126
+msgid "The email entered is incorrect."
+msgstr "ایمیلی که وارد کرده‌اید معتبر نیست."
+
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:139
+msgid "A ticket with the entered tracking code and email was not found."
+msgstr "تیکتی با کد پیگیری و ایمیل وارد شده یافت نشد."
+
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:154
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:154
+msgid "No messages here yet..."
+msgstr "هنوز پیامی ارسال نشده است ..."
+
+#: src/Pmpr/Module/Ticket/Frontend/Ajax.php:166
+msgid "A ticket with the entered tracking code was not found."
+msgstr "تیکتی با کد پیگیری وارد شده یافت نشد."
+
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:65
+msgid "Send"
+msgstr "ارسال"
+
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:85
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:105
+#: src/Pmpr/Module/Ticket/Model/AbstractResponse.php:26
+msgid "Text"
+msgstr "متن"
+
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:111
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:129
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:38
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/Pmpr/Module/Ticket/Frontend/Form.php:124
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:43
+#: src/Pmpr/Module/Ticket/Setting.php:302
+msgid "Tracking Code"
+msgstr "کد پیگیری"
+
+#: src/Pmpr/Module/Ticket/Model/AbstractResponse.php:18
+msgid "Attachment"
+msgstr "پیوست"
+
+#: src/Pmpr/Module/Ticket/Model/ElectedResponse.php:22
+#: src/Pmpr/Module/Ticket/Model/Response.php:40
+msgid "Elected Response"
+msgstr "پاسخ منتخب"
+
+#: src/Pmpr/Module/Ticket/Model/ElectedResponse.php:23
+msgid "Elected Responses"
+msgstr "پاسخ‌های منتخب"
+
+#: src/Pmpr/Module/Ticket/Model/ElectedResponse.php:35
+msgid "Title"
+msgstr "عنوان"
+
+#: src/Pmpr/Module/Ticket/Model/ElectedResponse.php:39
+#: src/Pmpr/Module/Ticket/Model/Respond.php:38
+#: src/Pmpr/Module/Ticket/Model/Response.php:20
+msgid "Response"
+msgstr "پاسخ"
+
+#: src/Pmpr/Module/Ticket/Model/Request.php:17
+msgid "Request"
+msgstr "درخواست"
+
+#: src/Pmpr/Module/Ticket/Model/Request.php:18
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:87
+msgid "Requests"
+msgstr "درخواست‌ها"
+
+#: src/Pmpr/Module/Ticket/Model/Request.php:30
+#: src/Pmpr/Module/Ticket/Model/Respond.php:33
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:29
+#: src/Pmpr/Module/Ticket/Setting.php:193 src/Pmpr/Module/Ticket/Ticket.php:24
+msgid "Ticket"
+msgstr "تیکت"
+
+#: src/Pmpr/Module/Ticket/Model/Request.php:62
+#, php-format
+msgid "Please enter at least %s characters for %s."
+msgstr "لطفا حداقل %s کاراکتر برای فیلد %s وارد کنید."
+
+#: src/Pmpr/Module/Ticket/Model/Respond.php:20
+msgid "Respond"
+msgstr "پاسخ"
+
+#: src/Pmpr/Module/Ticket/Model/Respond.php:21
+#: src/Pmpr/Module/Ticket/Model/Response.php:35
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:82
+msgid "Responds"
+msgstr "پاسخ‌ها"
+
+#: src/Pmpr/Module/Ticket/Model/Respond.php:29
+msgid "Responder"
+msgstr "پاسخ دهنده"
+
+#: src/Pmpr/Module/Ticket/Model/Response.php:21
+msgid "Responses"
+msgstr "پاسخ‌ها"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:30
+msgid "Tickets"
+msgstr "تیکت‌ها"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:37
+msgid "User"
+msgstr "کاربر"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:39
+msgid "Order"
+msgstr "ترتیب"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:40
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:61
+msgid "Product"
+msgstr "محصول"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:41
+msgid "Site Link"
+msgstr "لینک سایت"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:42
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:62
+msgid "Product Category"
+msgstr "دسته محصول"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:52
+msgid "Question"
+msgstr "سوال"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:53
+msgid "Criticism"
+msgstr "انتقاد"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:54
+msgid "Suggestion"
+msgstr "پیشنهاد"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:55
+msgid "Report"
+msgstr "گزارش"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:56
+msgid "Complaint"
+msgstr "شکایت"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:57
+#: src/Pmpr/Module/Ticket/Setting.php:199
+#: src/Pmpr/Module/Ticket/Setting.php:213
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:63
+msgid "Shop Order"
+msgstr "سفارش"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:64
+msgid "Site"
+msgstr "سایت"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:65
+#: src/Pmpr/Module/Ticket/Setting.php:204
+msgid "Subject"
+msgstr "موضوع"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:69
+msgid "Open"
+msgstr "باز"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:70
+msgid "Closed"
+msgstr "بسته"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:71
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:75
+msgid "Low"
+msgstr "کم"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:76
+msgid "Normal"
+msgstr "معمولی"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:77
+msgid "High"
+msgstr "بالا"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:78
+msgid "Priority"
+msgstr "اولویت"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:143
+msgid "Send Response"
+msgstr "ارسال پاسخ"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:244
+msgid "Sender"
+msgstr "ارسال کننده"
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:293
+#, php-format
+msgid "Please enter a valid %s."
+msgstr "لطفا یک %s معتبر وارد کنید."
+
+#: src/Pmpr/Module/Ticket/Model/Ticket.php:298
+#, php-format
+msgid "%s can not be empty."
+msgstr "%s نمی تواند خالی باشد."
+
+#: src/Pmpr/Module/Ticket/Moderator/Ticket.php:30
+#, php-format
+msgid ""
+"Currently, the ability to send new tickets to visitors is disabled, please "
+"%s in first."
+msgstr ""
+"در حال حاضر امکان ارسال تیکت جدید برای بازدیدکننده غیرفعال است، لطفا ابتدا "
+"%s."
+
+#: src/Pmpr/Module/Ticket/Moderator/Ticket.php:31
+msgid "Login"
+msgstr "وارد شوید"
+
+#: src/Pmpr/Module/Ticket/Setting.php:76
+msgid "Ticket Setting"
+msgstr "تنظیمات تیکت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:77
+msgid "Setting"
+msgstr "تنظیمات"
+
+#: src/Pmpr/Module/Ticket/Setting.php:91 src/Pmpr/Module/Ticket/Setting.php:232
+msgid "General"
+msgstr "عمومی"
+
+#: src/Pmpr/Module/Ticket/Setting.php:93
+msgid "General Configuration"
+msgstr "پیکربندی عمومی"
+
+#: src/Pmpr/Module/Ticket/Setting.php:97
+msgid "Brand"
+msgstr "برند"
+
+#: src/Pmpr/Module/Ticket/Setting.php:100
+msgid "Name"
+msgstr "نام"
+
+#: src/Pmpr/Module/Ticket/Setting.php:105
+msgid "Slogan"
+msgstr "شعار"
+
+#: src/Pmpr/Module/Ticket/Setting.php:110
+msgid "Logo"
+msgstr "لوگو"
+
+#: src/Pmpr/Module/Ticket/Setting.php:117
+msgid "Open & Close Ticket"
+msgstr "باز و بسته کردن تیکت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:120
+msgid "Auto Close by Response"
+msgstr "بسته شدن خودکار با ارسال پاسخ"
+
+#: src/Pmpr/Module/Ticket/Setting.php:121
+msgid "Auto close thicket by first response from agents."
+msgstr "بسته شدن خودکار تکیت بعد از ارسال پاسخ توسط پاسخگو‌ها."
+
+#: src/Pmpr/Module/Ticket/Setting.php:125
+msgid "Auto Close by Pass Time"
+msgstr "بسته شدن خودکار با گذشت زمان"
+
+#: src/Pmpr/Module/Ticket/Setting.php:130
+#: src/Pmpr/Module/Ticket/Setting.php:145
+msgid "Threshold (Day)"
+msgstr "آستانه (روز)"
+
+#: src/Pmpr/Module/Ticket/Setting.php:134
+msgid "Manual Close"
+msgstr "بسته شدن دستی"
+
+#: src/Pmpr/Module/Ticket/Setting.php:139
+msgid "Reopen Ticket"
+msgstr "پاسخ تیکت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:140
+msgid "Reopen ticket by sending response"
+msgstr "باز کردن تیکت با ارسال پاسخ"
+
+#: src/Pmpr/Module/Ticket/Setting.php:151
+msgid "Multiple Submits"
+msgstr "ارسال‌های متعدد"
+
+#: src/Pmpr/Module/Ticket/Setting.php:154
+msgid "Sending Consecutive Tickets"
+msgstr "ارسال تیکت‌های متوالی"
+
+#: src/Pmpr/Module/Ticket/Setting.php:158
+msgid "Sending Consecutive Responses"
+msgstr "ارسال پاسخ‌های متوالی"
+
+#: src/Pmpr/Module/Ticket/Setting.php:165
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: src/Pmpr/Module/Ticket/Setting.php:167
+msgid "Advanced Configuration"
+msgstr "پیکربندی پیشرفته"
+
+#: src/Pmpr/Module/Ticket/Setting.php:171
+msgid "Roles"
+msgstr "نقش‌های کاربری"
+
+#: src/Pmpr/Module/Ticket/Setting.php:174
+msgid "Submit Ticket By Guest"
+msgstr "ارسال پاسخ توسط کاربر مهمان"
+
+#: src/Pmpr/Module/Ticket/Setting.php:175
+msgid "By checking this option, unregistered clients can submit a ticket."
+msgstr ""
+"با فعال کردن این گزینه، کلاینت‌های ثبت نام نشده می توانند تیکت ارسال کنند."
+
+#: src/Pmpr/Module/Ticket/Setting.php:179
+msgid "Client Roles"
+msgstr "نقش‌های کاربری کلاینت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:181
+msgid "Leave empty, if you want all user roles can submit a ticket."
+msgstr ""
+"اگر می‌خواهید همه نقش‌های کاربری امکان ثبت تیکت داشته باشند، خالی رها کنید."
+
+#: src/Pmpr/Module/Ticket/Setting.php:185
+msgid "Agent Roles"
+msgstr "نقش‌های کاربری پاسخگو"
+
+#: src/Pmpr/Module/Ticket/Setting.php:187
+msgid "Selected user roles can manage tickets."
+msgstr "نقش‌های کاربری که می‌توانند تیکت‌ها را مدیریت کنند را مشخص کنید."
+
+#: src/Pmpr/Module/Ticket/Setting.php:196
+msgid "Relation Between Types & Subjects"
+msgstr "رابطه بین نوع و موضوع"
+
+#: src/Pmpr/Module/Ticket/Setting.php:210
+msgid "Type Guides"
+msgstr "راهنمای انواع تیکت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:218
+msgid "Guide"
+msgstr "راهنما"
+
+#: src/Pmpr/Module/Ticket/Setting.php:226
+msgid "Edit"
+msgstr "ویرایش"
+
+#: src/Pmpr/Module/Ticket/Setting.php:228
+msgid "Edit Ticket & Response"
+msgstr "ویرایش تیکت و پاسخ‌"
+
+#: src/Pmpr/Module/Ticket/Setting.php:235
+msgid "Change Priority By Client"
+msgstr "تغییر اولویت توسط کلاینت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:236
+msgid "By checking this option, clients can change ticket priority."
+msgstr "با فعال کردن این گزینه، کلاینت‌ها می‌توانند الویت تیکت را تغییر دهند."
+
+#: src/Pmpr/Module/Ticket/Setting.php:242
+msgid "Edit Ticket"
+msgstr "ویرایش تیکت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:245
+#: src/Pmpr/Module/Ticket/Setting.php:268
+msgid "By Agent"
+msgstr "به وسیله پاسخگو"
+
+#: src/Pmpr/Module/Ticket/Setting.php:250
+#: src/Pmpr/Module/Ticket/Setting.php:259
+#: src/Pmpr/Module/Ticket/Setting.php:273
+#: src/Pmpr/Module/Ticket/Setting.php:282
+msgid "Threshold (Hour)"
+msgstr "آستانه (ساعت)"
+
+#: src/Pmpr/Module/Ticket/Setting.php:254
+#: src/Pmpr/Module/Ticket/Setting.php:277
+msgid "By Client"
+msgstr "توسط کلاینت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:265
+msgid "Edit Response"
+msgstr "ویرایش پاسخ"
+
+#: src/Pmpr/Module/Ticket/Setting.php:288
+msgid "Messages"
+msgstr "پیام‌ها"
+
+#: src/Pmpr/Module/Ticket/Setting.php:290
+msgid "Messages Configuration"
+msgstr "پیکربندی پیام‌ها"
+
+#: src/Pmpr/Module/Ticket/Setting.php:294
+msgid "Successful Ticket Submission"
+msgstr "تیکت با موفقیت ثبت شد"
+
+#: src/Pmpr/Module/Ticket/Setting.php:297
+msgid "User Message"
+msgstr "پیام کاربر (لاگین شده)"
+
+#: src/Pmpr/Module/Ticket/Setting.php:301
+msgid "Guest Message"
+msgstr "پیام مهمان"
+
+#: src/Pmpr/Module/Ticket/Setting.php:353
+msgid "Agent"
+msgstr "پاسخگو"
+
+#: src/Pmpr/Module/Ticket/Setting.php:354
+msgid "Client"
+msgstr "کلاینت"
+
+#: src/Pmpr/Module/Ticket/Setting.php:355
+msgid "Client & Agent"
+msgstr "کلاینت و پاسخگو"
+
+#: src/Pmpr/Module/Ticket/Setting.php:356
+msgid "None"
+msgstr "هیچکدام"
+
+#: src/Pmpr/Module/Ticket/Traits/SubmissionTrait.php:39
+msgid "Can not create response, please report this issue."
+msgstr "قادر به ثبت پاسخ نیستیم، لطفا این مورد را گزارش کنید."
+
+#: src/Pmpr/Module/Ticket/Traits/SubmissionTrait.php:54
+msgid "Can not create respond, please report this issue."
+msgstr "قادر به ثبت پاسخ نیستیم، لطفا این مورد را گزارش کنید."
+
+#: src/Pmpr/Module/Ticket/Traits/SubmissionTrait.php:104
+msgid "Can not submit your request, please refresh page and try again."
+msgstr ""
+"قادر به ثبت درخواست شما نیستیم، لطفا صفحه را رفرش کرده و دوباره امتحان کنید."
+
+#: src/Pmpr/Module/Ticket/Traits/SubmissionTrait.php:161
+msgid "Your request submitted successfully."
+msgstr "درخواست شما با موفقیت ثبت شد."
+
+#~ msgid ""
+#~ "Sorry, this file couldn't be sanitized so for security reasons wasn't "
+#~ "uploaded"
+#~ msgstr ""
+#~ "متاسفم، قادر به پاکسازی فایل مورد نظر نبودیم، به دلایل امنیتی فایل آپلود "
+#~ "نشد"
+
+#~ msgid "Full Size"
+#~ msgstr "اندازه کامل"
+
+#~ msgid "Thumbnail"
+#~ msgstr "تصویر بند انگشتی"
+
+#~ msgid "Medium"
+#~ msgstr "متوسط"
+
+#~ msgid "Large"
+#~ msgstr "بزرگ"
+
+#~ msgid "AMP"
+#~ msgstr "شتابدهی موبایل"
+
+#~ msgid "Enable AMP"
+#~ msgstr "فعال سازی شتابدهی موبایل"
+
+#~ msgid "Endpoint"
+#~ msgstr "نقطه پایانی"
+
+#~ msgid "Exclude Posts"
+#~ msgstr "نوشته‌های مستثنی"
+

@@ -1,0 +1,7 @@
+<?php
+/*   _______________________________________
+    |  Obfuscated by PMPR - Php Obfuscator  |
+    |             66e5e7d29d8a1             |
+    |_______________________________________|
+*/
+ namespace Pmpr\Module\Ticket\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; class Response extends AbstractResponse { const kyyqoeaeyqeeicwo = Constants::agowqguqsycqyymy . Constants::mswocgcucqoaesaa; const ggcqemwekmeikkiu = "\145\154\145\143\x74\145\x64\137" . Constants::imqkacyywmmamsqm . Constants::mswocgcucqoaesaa; public function ckgmycmaukqgkosk() { $this->oyeskqayoscwciem()->yioesawwewqaigow(IconInterface::osaqwqwkkmocawgs)->guiaswksukmgageq(__("\x52\x65\163\x70\x6f\156\163\x65", PR__MDL__TICKET))->muuwuqssqkaieqge(__("\122\145\x73\x70\157\156\x73\145\163", PR__MDL__TICKET))->wkesqcmiekqoykag()->aseucqksocwomwos()->qemeyueyiwgsokuc(); parent::ckgmycmaukqgkosk(); } public function ewaqwooqoqmcoomi() { parent::ewaqwooqoqmcoomi(); $this->cquokmemekqqywgi($this->eoaomaokwkwqyqiq(self::kyyqoeaeyqeeicwo)->gswweykyogmsyawy(__("\122\145\x73\160\x6f\156\x64\163", PR__MDL__TICKET))->ckgquisaimmgwuyu(Respond::class))->cquokmemekqqywgi($this->eoaomaokwkwqyqiq(self::ggcqemwekmeikkiu)->gswweykyogmsyawy(__("\x45\154\145\x63\x74\x65\144\40\x52\x65\163\x70\x6f\156\163\x65", PR__MDL__TICKET))->geimymogiqyssawi(ElectedResponse::class)->kkeymosoimmgsaug()); } }
