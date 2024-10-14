@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6705179f5c202             |
+    |             670d0052c76f2             |
     |_______________________________________|
 */
- namespace Pmpr\Module\Ticket\Moderator\Traits; use Pmpr\Module\Ticket\Moderator\Moderator; trait ModeratorTrait { protected ?Moderator $moderator = null; public function xowuwmoiekgcwiaq() : Moderator { if ($this->moderator) { goto gkyawqqcmigqgaiq; } $this->moderator = new Moderator(); gkyawqqcmigqgaiq: return $this->moderator; } }
+ namespace Pmpr\Module\Ticket\Moderator\Traits; use Pmpr\Module\Ticket\Moderator\Moderator; trait ModeratorTrait { protected ?Moderator $moderator = null; public function xowuwmoiekgcwiaq() : Moderator { if (!$this->moderator) { $this->moderator = new Moderator(); } return $this->moderator; } }
