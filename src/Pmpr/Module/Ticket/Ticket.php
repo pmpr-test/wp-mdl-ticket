@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6800fbf88cf7a             |
+    |             680106a879f76             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Ticket; use Pmpr\Common\Foundation\Container\ModuleInitiator; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Module\Ticket\Backend\Backend; use Pmpr\Module\Ticket\Frontend\Frontend; use Pmpr\Module\Ticket\Model\ElectedResponse; use Pmpr\Module\Ticket\Model\Ticket as TicketModel; use Pmpr\Module\Ticket\Model\Response; use Pmpr\Module\Ticket\Panel\Panel; use Pmpr\Module\Ticket\REST\REST; class Ticket extends ModuleInitiator { const uuqoeigueqguouek = Constants::yeaekcacwwyyqigq . Constants::wassgkgmoyygyaya; public function register() { $this->gkieogwukagigisy(__DIR__, [Constants::qescuiwgsyuikume => static function () { return __('Ticket', PR__MDL__TICKET); }, Constants::sguyaymiiiiewame => Setting::class]); } public function mameiwsayuyquoeq() { $owaoeyikmqaeegma = $this->caokeucsksukesyo()->owicscwgeuqcqaig(); if ($owaoeyikmqaeegma->awumyiewiaosiyyy()) { TicketModel::symcgieuakksimmu(); Response::symcgieuakksimmu(); ElectedResponse::symcgieuakksimmu(); } if ($owaoeyikmqaeegma->gimisysaiasieees()) { REST::symcgieuakksimmu(); } Backend::symcgieuakksimmu(); Frontend::symcgieuakksimmu(); } public function aqyikqugcomoqqqi() { if ($this->caokeucsksukesyo()->cqusmgskowmesgcg()->iqqgmieeqemiowuk('panel') && $this->caokeucsksukesyo()->owicscwgeuqcqaig()->gimisysaiasieees()) { Panel::symcgieuakksimmu(); } } }

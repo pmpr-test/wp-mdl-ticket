@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6800fbf88cf7a             |
+    |             680106a879f76             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Ticket\Panel; use Pmpr\Module\Panel\REST\AbstractREST; class Controller extends AbstractREST { }

@@ -1,7 +1,7 @@
 <?php
 /*   _______________________________________
     |  Obfuscated by PMPR - Php Obfuscator  |
-    |             6800fbf88cf7a             |
+    |             680106a879f76             |
     |_______________________________________|
 */
  namespace Pmpr\Module\Ticket\Model; use Pmpr\Common\Foundation\Interfaces\Constants; use Pmpr\Common\Foundation\Interfaces\IconInterface; use Pmpr\Common\Foundation\ORM\Model; class ElectedResponse extends Model { const miwkyequoaigisoa = Constants::imqkacyywmmamsqm . Constants::mswocgcucqoaesaa; public function register() { $this->saemoowcasogykak(IconInterface::osaqwqwkkmocawgs)->guiaswksukmgageq(__('Elected Response', PR__MDL__TICKET))->muuwuqssqkaieqge(__('Elected Responses', PR__MDL__TICKET))->uaywwyimkgwyqwya([Constants::yiuwgggacagyeqmo => 50]); $this->ecmiqywsauuoccwo(Constants::ukwaycqmyyuekwqg)->ecmiqywsauuoccwo(Constants::ieioeisgwcgysukw)->ecmiqywsauuoccwo(Constants::awysmmukegasimmq)->ecmiqywsauuoccwo(Constants::weiosaewqequuyuq); } public function uwmqacgewuauagai() { $eqwoegegiamegqsm = $this->caokeucsksukesyo()->skckwsgymkimyuwo(); $this->cquokmemekqqywgi($eqwoegegiamegqsm->gysoeyaguiyewoes(Constants::qescuiwgsyuikume)->gswweykyogmsyawy(__('Title', PR__MDL__TICKET)))->cquokmemekqqywgi($eqwoegegiamegqsm->eoaomaokwkwqyqiq(self::miwkyequoaigisoa)->gswweykyogmsyawy(__('Response', PR__MDL__TICKET))->geimymogiqyssawi(Response::class)->wakqsiacyacmumuw()); parent::uwmqacgewuauagai(); } }
